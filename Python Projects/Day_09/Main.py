@@ -12,7 +12,7 @@ def check_answer(guess,num,turns):
         print("Too low.")
         return turns-1
     else:
-        print(f"You got the answer right: {num}")
+        print(f"You got the answer right: {num} ")
 
 #function to set difficulty level
 
