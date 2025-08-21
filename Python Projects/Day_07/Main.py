@@ -23,7 +23,7 @@ while flag:
     bidding_counter[key]=value
 
 
-    continue_counter=input("Are there any other bidders? Type 'yes' or 'no'").lower()
+    continue_counter=input("Are there any other bidders? Type 'yes' or 'no': ").lower()
     if continue_counter=="no":
         flag=False
         finding(bidding_counter)
